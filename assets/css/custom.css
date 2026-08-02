@@ -1,0 +1,23 @@
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid a {
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 24px;
+}

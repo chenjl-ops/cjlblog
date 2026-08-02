@@ -1,0 +1,9 @@
+{{ if and .IsPage (not .Params.comments) }}
+
+<div class="hx-mt-12">
+
+{{ partial "custom/comments.html" . }}
+
+</div>
+
+{{ end }}
