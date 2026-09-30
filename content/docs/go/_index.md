@@ -1,6 +1,6 @@
 +++
 title = "Go"
-weight = 2
+weight = 3
 +++
 
 Go 开发文档

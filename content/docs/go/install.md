@@ -1,6 +1,6 @@
 +++
 title = "环境安装"
-weight = 2
+weight = 3
 +++
 
 # 安装 Go
