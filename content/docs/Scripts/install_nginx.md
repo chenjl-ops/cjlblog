@@ -1,5 +1,5 @@
 +++
-title = "Install Nginx"
+title = "Nginx安装"
 weight = 4
 +++
 

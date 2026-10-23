@@ -1,5 +1,5 @@
 +++
-title = "Game Video Sharing"
+title = "游戏视频分享"
 weight = 11
 description="主要记录一些游戏游玩视频，主要在YouTube以及blibli平台，其他待定"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Check Tron Full Node Version"
+title = "Tron全节点版本检测"
 weight = 4
 +++
 ```python
