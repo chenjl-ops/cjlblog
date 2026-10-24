@@ -23,6 +23,6 @@ a\
 # set DOCKER-USER rules
 # get number
 n=$(($(sudo grep -n "*security" /etc/sysconfig/iptables|cut -d: -f1) -1))
-sudo sed "${n}i\#2026-10-02 封堵监控端口\\n-A DOCKER-USER ! -s 18.167.182.100/32 -p tcp -m multiport --dports 9100,9256,8080,38080 -j DROP\\n" /etc/sysconfig/iptables
+sudo sed "${n}i\#2026-10-02 封堵监控端口\\n-A DOCKER-USER ! -s 127.0.0.1/32 -p tcp -m multiport --dports 9100,9256,8080,38080 -j DROP\\n" /etc/sysconfig/iptables
 
 ```
